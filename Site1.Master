@@ -1,0 +1,138 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="LibraryProject.Site1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <link rel="stylesheet" href="Template/layout/styles/layout.css" type="text/css" />
+    <asp:ContentPlaceHolder ID="cntntHead" runat="server"></asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            float: right;
+            width: 279px;
+            height: 36px;
+        }
+    </style>
+</head>
+
+<body id="top">
+    <form runat="server" id="bodyForm">
+        <div class="wrapper row1">
+            <div id="header" class="clear">
+                <div class="fl_left">
+                    <h1><a href="../../default.aspx">Library Uni</a></h1>
+
+                </div>
+                <div class="auto-style1">
+                    <asp:LoginStatus ID="LoginStatus1" runat="server" LogoutPageUrl="~/default.aspx" OnLoggingOut="LoginStatus1_LoggingOut" />
+
+                    &nbsp;&nbsp;
+                    <asp:LoginName ID="LoginName1" runat="server" />
+
+                </div>
+                <div id="topnav">
+                    <ul>
+                        <li class="active"><a href="../../default.aspx">Home</a></li>
+                        <li><a href="../../pages/search.aspx">Search</a></li>
+                        <li><a href="../../pages/newmaterials.aspx">New Materials</a></li>
+                        <li><a href="../../pages/librarycolletion.aspx">Library Collection</a></li>
+                        <asp:LoginView ID="LoginViewMain" runat="server">
+                            <AnonymousTemplate>
+                                <li><a href="../pages/login.aspx">Login</a></li>
+                            </AnonymousTemplate>
+                            <RoleGroups>
+                                <asp:RoleGroup Roles="admin">
+                                    <ContentTemplate>
+                                        <li><a href="../../pages/admin/default.aspx" onclick="">My Account</a></li>
+                                    </ContentTemplate>
+                                </asp:RoleGroup>
+                                 <asp:RoleGroup Roles="moderator">
+                                    <ContentTemplate>
+                                        <li><a href="../../pages/moderator/default.aspx" onclick="">My Account</a></li>
+                                    </ContentTemplate>
+                                </asp:RoleGroup>
+                                 <asp:RoleGroup Roles="student,gstudent,teacher">
+                                    <ContentTemplate>
+                                        <li><a href="../../pages/moderator/default.aspx" onclick="">My Account</a></li>
+                                    </ContentTemplate>
+                                </asp:RoleGroup>
+                            </RoleGroups>
+                        </asp:LoginView>
+
+                        <li><a href="../../pages/request.aspx">Request Material</a></li>
+                        <li><a href="../../pages/contact.aspx">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- ####################################################################################################### -->
+
+        <div class="wrapper row3">
+            <div id="container" class="clear">
+
+                <asp:ContentPlaceHolder ID="cntntBody" runat="server"></asp:ContentPlaceHolder>
+            </div>
+        </div>
+
+        <!-- ####################################################################################################### -->
+        <div class="wrapper row4">
+            <div id="footer" class="clear">
+                <!-- ####################################################################################################### -->
+                <div class="footbox">
+                    <h2>Quick Links</h2>
+                    <ul>
+                        <li><a href="../../default.aspx">&raquo; Homepage</a></li>
+                        <li><a href="#">&raquo; Contact Us</a></li>
+                        <li><a href="#">&raquo; Sitemap</a></li>
+                        <li><a href="#">&raquo; Privacy Policy</a></li>
+                        <li><a href="#">&raquo; Terms of Use</a></li>
+                        <li><a href="#">&raquo; Copyright Information</a></li>
+                        <li><a href="#">&raquo; Website Matters</a></li>
+                    </ul>
+                </div>
+                <div class="footbox">
+                    <h2>How To Find Us</h2>
+                    <address>
+                        Turkey<br />
+                        Seyhan/Adana<br />
+                        01102<br />
+                        <br />
+                        Tel: +90 505 905 11 02
+                        <br />
+                        Email: <a href="#">mehmetcanavdan@gmai.com</a>
+                    </address>
+                </div>
+                <div class="fl_right">
+                    <div id="social">
+                        <h2>Connect With Us</h2>
+                        <ul>
+                            <li><a href="#">
+
+                                <img runat="server" src="~/Template/images/social/facebook.gif" alt="" /></a></li>
+                            <li><a href="#">
+                                <img runat="server" src="~/Template/images/social/twitter.gif" alt="" /></a></li>
+                            <li><a href="#">
+                                <img runat="server" src="~/Template/images/social/flickr.gif" alt="" /></a></li>
+                            <li><a href="#">
+                                <img runat="server" src="~/Template/images/social/youtube.gif" alt="" /></a></li>
+                            <li class="last"><a href="#">
+                                <img runat="server" src="~/Template/images/social/rss.gif" alt="" /></a></li>
+                        </ul>
+                    </div>
+
+                </div>
+                <!-- ####################################################################################################### -->
+            </div>
+        </div>
+        <!-- ####################################################################################################### -->
+        <div class="wrapper">
+            <div id="copyright" class="clear">
+                <p class="fl_left">Copyright &copy; All Rights Reserved - <a href="#">Domain Name</a></p>
+                <p class="fl_right">Template by <a target="_blank" href="http://www.os-templates.com/" title="Free Website Templates">OS Templates</a></p>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
