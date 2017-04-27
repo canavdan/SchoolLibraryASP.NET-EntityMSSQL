@@ -7,6 +7,6 @@ There is two type of user.Member and staff.Every member has a role like teacher,
 <img width="35%" src="https://github.com/canavdan/SchoolLibraryASP.NET-EntityMSSQL/blob/master/Pictures/addBook.png?raw=true"/>
 <img width="35%" src="https://github.com/canavdan/SchoolLibraryASP.NET-EntityMSSQL/blob/master/Pictures/collection.png?raw=true"/>
 <img width="35%" src="https://github.com/canavdan/SchoolLibraryASP.NET-EntityMSSQL/blob/master/Pictures/profile.png?raw=true"/>
-<img width="35%" src="https://github.com/canavdan/SchoolLibraryASP.NET-EntityMSSQL/blob/master/Pictures/search.png"/>
-<img width="35%" src="https://github.com/canavdan/SchoolLibraryASP.NET-EntityMSSQL/blob/master/Pictures/searchresult.png"/>
+<img width="35%" src="https://github.com/canavdan/SchoolLibraryASP.NET-EntityMSSQL/blob/master/Pictures/search.png?raw=true"/>
+<img width="35%" src="https://github.com/canavdan/SchoolLibraryASP.NET-EntityMSSQL/blob/master/Pictures/searchresult.png?raw=true"/>
 
