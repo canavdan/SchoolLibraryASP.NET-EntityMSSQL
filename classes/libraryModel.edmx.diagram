@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="d344e98e19bd4574adcf6e7061314784" Name="Diagram1" ZoomLevel="95">
+        <EntityTypeShape EntityType="libraryDBModel.aspnet_Applications" Width="1.5" PointX="7.75" PointY="17" IsExpanded="true" />
+        <EntityTypeShape EntityType="libraryDBModel.aspnet_Membership" Width="1.5" PointX="11" PointY="16.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="libraryDBModel.aspnet_Paths" Width="1.5" PointX="8" PointY="13.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="libraryDBModel.aspnet_PersonalizationAllUsers" Width="1.5" PointX="10.25" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="libraryDBModel.aspnet_PersonalizationPerUser" Width="1.5" PointX="10.25" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="libraryDBModel.aspnet_Profile" Width="1.5" PointX="15.5" PointY="18.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="libraryDBModel.aspnet_Roles" Width="1.5" PointX="8" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="libraryDBModel.aspnet_SchemaVersions" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="libraryDBModel.aspnet_Users" Width="1.5" PointX="13.25" PointY="18.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="libraryDBModel.aspnet_WebEvent_Events" Width="1.5" PointX="10.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="libraryDBModel.author" Width="1.5" PointX="7.25" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="libraryDBModel.branch" Width="1.5" PointX="0.75" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="libraryDBModel.category" Width="1.5" PointX="0.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="libraryDBModel.department" Width="1.5" PointX="0.75" PointY="15.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="libraryDBModel.faculty" Width="1.5" PointX="1.5" PointY="19.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="libraryDBModel.language" Width="1.5" PointX="0.75" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="libraryDBModel.material" Width="1.5" PointX="3" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="libraryDBModel.publisher" Width="1.5" PointX="0.75" PointY="9.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="libraryDBModel.request" Width="1.5" PointX="9.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="libraryDBModel.reserved" Width="1.5" PointX="8.25" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="libraryDBModel.staff" Width="1.5" PointX="5" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="libraryDBModel.staffDepartmant" Width="1.5" PointX="2.75" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="libraryDBModel.sysdiagram" Width="1.5" PointX="11.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="libraryDBModel.type" Width="1.5" PointX="0.75" PointY="12.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="libraryDBModel.vw_aspnet_Applications" Width="1.5" PointX="12.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="libraryDBModel.vw_aspnet_MembershipUsers" Width="1.5" PointX="12.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="libraryDBModel.vw_aspnet_Profiles" Width="1.5" PointX="13.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="libraryDBModel.vw_aspnet_Roles" Width="1.5" PointX="14.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="libraryDBModel.vw_aspnet_Users" Width="1.5" PointX="14.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="libraryDBModel.vw_aspnet_UsersInRoles" Width="1.5" PointX="14.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="libraryDBModel.vw_aspnet_WebPartState_Paths" Width="1.5" PointX="14.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="libraryDBModel.vw_aspnet_WebPartState_Shared" Width="1.5" PointX="15.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="libraryDBModel.vw_aspnet_WebPartState_User" Width="1.5" PointX="16.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="libraryDBModel.FK__aspnet_Me__Appli__22751F6C" ManuallyRouted="false" />
+        <AssociationConnector Association="libraryDBModel.FK__aspnet_Pa__Appli__540C7B00" ManuallyRouted="false" />
+        <AssociationConnector Association="libraryDBModel.FK__aspnet_Ro__Appli__40F9A68C" ManuallyRouted="false" />
+        <AssociationConnector Association="libraryDBModel.FK__aspnet_Us__Appli__123EB7A3" ManuallyRouted="false" />
+        <AssociationConnector Association="libraryDBModel.FK__aspnet_Me__UserI__236943A5" ManuallyRouted="false" />
+        <AssociationConnector Association="libraryDBModel.FK__aspnet_Pe__PathI__59C55456" ManuallyRouted="false" />
+        <AssociationConnector Association="libraryDBModel.FK__aspnet_Pe__PathI__5D95E53A" ManuallyRouted="false" />
+        <AssociationConnector Association="libraryDBModel.FK__aspnet_Pe__UserI__5E8A0973" ManuallyRouted="false" />
+        <AssociationConnector Association="libraryDBModel.FK__aspnet_Pr__UserI__37703C52" ManuallyRouted="false" />
+        <AssociationConnector Association="libraryDBModel.FK_material_branch" ManuallyRouted="false" />
+        <AssociationConnector Association="libraryDBModel.FK_material_category" ManuallyRouted="false" />
+        <AssociationConnector Association="libraryDBModel.FK_department_faculty" ManuallyRouted="false" />
+        <AssociationConnector Association="libraryDBModel.FK_material_language" ManuallyRouted="false" />
+        <AssociationConnector Association="libraryDBModel.FK_material_publisher" ManuallyRouted="false" />
+        <AssociationConnector Association="libraryDBModel.FK_material_type" ManuallyRouted="false" />
+        <AssociationConnector Association="libraryDBModel.FK_reserved_material" ManuallyRouted="false" />
+        <AssociationConnector Association="libraryDBModel.FK_staff_staffDepartmant" ManuallyRouted="false" />
+        <AssociationConnector Association="libraryDBModel.aspnet_UsersInRoles" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="libraryDBModel.au" Width="1.5" PointX="17.375" PointY="6.75" />
+        <EntityTypeShape EntityType="libraryDBModel.member_DB" Width="1.75" PointX="3.75" PointY="13.125" />
+        <AssociationConnector Association="libraryDBModel.FK_member_department1" />
+        <AssociationConnector Association="libraryDBModel.FK_reserved_member1" />
+        <EntityTypeShape EntityType="libraryDBModel.loan_DB2" Width="1.5" PointX="17.25" PointY="13.5" />
+        <AssociationConnector Association="libraryDBModel.FK_loan_material" />
+        <AssociationConnector Association="libraryDBModel.FK_loan_member1" />
+        <EntityTypeShape EntityType="libraryDBModel.loanhistory2" Width="1.5" PointX="6.25" PointY="0.75" />
+        <AssociationConnector Association="libraryDBModel.FK_loanhistory_material1" />
+        <AssociationConnector Association="libraryDBModel.FK_loanhistory_member" />
+        <EntityTypeShape EntityType="libraryDBModel.penaltyDB3" Width="1.5" PointX="5.375" PointY="3.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
